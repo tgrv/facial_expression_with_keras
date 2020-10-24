@@ -9,7 +9,7 @@ font = cv2.FONT_HERSHEY_SIMPLEX
 class VideoCamera(object):
     def __init__(self):
         self.video = cv2.VideoCapture(0)        # Select this for webcam
-        self.video = cv2.VideoCapture('videos/facial_exp/mkv')      # Select this for video at given path
+        # self.video = cv2.VideoCapture('videos/facial_exp.mkv')      # Select this for video at given path
 
     def __del__(self):
         self.video.release()
